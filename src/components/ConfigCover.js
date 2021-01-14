@@ -216,7 +216,7 @@ class ConfigCover extends React.Component {
 	  <AdSense.Google
   client='ca-pub-2534224332415775'
   slot='7709604485'
-  style={{ width: 500, height: 300, float: 'left' }}
+  style={{ width: 100%, height: 300, }}
   format='auto'
 />
 					<div className="d-flex flex-row mt-2">
