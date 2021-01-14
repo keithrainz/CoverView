@@ -9,7 +9,7 @@ const Footer = () => {
 	      <AdSense.Google
   client='ca-pub-2534224332415775'
   slot='7709604485'
-  style={{ width: 500, height: 300, float: 'left' }}
+  style={{ width: 500, height: 300, float: 'center' }}
   format='auto'
 />
             Made with &#10084; By <a href="https://keithrainz.me/blogcover/">Keith Rainz</a>
