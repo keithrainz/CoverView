@@ -236,7 +236,7 @@ class ConfigCover extends React.Component {
 					</ComponentToImg><AdSense.Google
   client='ca-pub-2534224332415775'
   slot='7709604485'
-  style={{ width: 600, height: 300, }}
+  style={{ width: 500, height: 300, }}
   format='auto'
 />
 				</div>
