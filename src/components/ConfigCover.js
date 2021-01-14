@@ -238,7 +238,12 @@ class ConfigCover extends React.Component {
 				<div className="blog-cover">
 					<ComponentToImg downloadAs={this.state.download}>
 						<CoverImage {...this.state} />
-					</ComponentToImg>
+					</ComponentToImg><AdSense.Google
+  client='ca-pub-2534224332415775'
+  slot='7709604485'
+  style={{ width: 600, height: 300, }}
+  format='auto'
+/>
 				</div>
 
 			</div>
