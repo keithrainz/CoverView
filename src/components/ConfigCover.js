@@ -213,12 +213,7 @@ class ConfigCover extends React.Component {
 					</details>
 
 
-	  <AdSense.Google
-  client='ca-pub-2534224332415775'
-  slot='7709604485'
-  style={{ width: 500, height: 300, }}
-  format='auto'
-/>
+	 
 					<div className="d-flex flex-row mt-2">
 						<label>Download As</label>
 						<select onChange={(e) => this.setState({ download: e.target.value })} className="form-control input-md ml-2" value={this.state.download}>
