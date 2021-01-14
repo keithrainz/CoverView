@@ -7,7 +7,7 @@ import Select from 'react-select';
 import RandomTheme from './RandomTheme';
 
 const defaultSettings = {
-	title: "How I built my first project with react",
+	title: "How to make money online",
 	bgColor: "#00ff99",
 	borderColor: "#676683",
 	borderSize: "18",
@@ -17,8 +17,8 @@ const defaultSettings = {
 	foregroundColor: "#ffffff",
 	textColor: "#676683",
 	opacity: 1,
-	author: 'Rutik Wankhade',
-	icon: { 'label': 'react', 'value': 'react' },
+	author: 'Keith Rainz: https://keithrainz.me',
+	icon: { 'label': 'google', 'value': 'google' },
 	devIconOptions: {},
 };
 const devIconsUrl = "https://raw.githubusercontent.com/devicons/devicon/master/devicon.json"
@@ -51,8 +51,8 @@ class ConfigCover extends React.Component {
 		return (
 			<div className="main-container">
 				<div className="inputData card">
-					<h1>CoverView</h1>
-					<p className="tagline">🛠 Creating cover images for your blogs is now super easy</p>
+					<h1>Blog Cover</h1>
+					<p className="tagline">🛠 Creating cover images for your blogs is now super easy and fast</p>
 					<input
 						type="text"
 						placeholder="Enter title here"
