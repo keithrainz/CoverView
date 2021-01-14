@@ -1,4 +1,5 @@
 import React from "react";
+import AdSense from 'react-adsense-ad';
 import "./ConfigCover.css";
 import CoverImage from "./CoverImage";
 import ComponentToImg from "./ComponentToImg";
@@ -7,7 +8,7 @@ import Select from 'react-select';
 import RandomTheme from './RandomTheme';
 
 const defaultSettings = {
-	title: "How to make money online..",
+	title: "How to make money online",
 	bgColor: "#00ff99",
 	borderColor: "#676683",
 	borderSize: "18",
@@ -211,7 +212,13 @@ class ConfigCover extends React.Component {
 						</select> */}
 					</details>
 
-
+<div><AdSense.Google
+  client='ca-pub-2534224332415775'
+  slot='7709604485'
+  style={{ display: 'block' }}
+  format='auto'
+  responsive='true'
+/></div>
 					<div className="d-flex flex-row mt-2">
 						<label>Download As</label>
 						<select onChange={(e) => this.setState({ download: e.target.value })} className="form-control input-md ml-2" value={this.state.download}>
