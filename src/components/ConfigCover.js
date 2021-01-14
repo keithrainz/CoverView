@@ -7,7 +7,7 @@ import Select from 'react-select';
 import RandomTheme from './RandomTheme';
 
 const defaultSettings = {
-	title: "How to make money online",
+	title: "How to make money online..",
 	bgColor: "#00ff99",
 	borderColor: "#676683",
 	borderSize: "18",
