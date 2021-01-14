@@ -212,12 +212,12 @@ class ConfigCover extends React.Component {
 						</select> */}
 					</details>
 
-<AdSense.Google
+
+	  <AdSense.Google
   client='ca-pub-2534224332415775'
   slot='7709604485'
-  style={{ display: 'block' }}
-  layout='in-article'
-  format='fluid'
+  style={{ width: 500, height: 300, float: 'left' }}
+  format='auto'
 />
 					<div className="d-flex flex-row mt-2">
 						<label>Download As</label>
